@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: rgb(206, 127, 127);
+}
+table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#ok{
+    font-size: 25px;
+    border: 1px #fff solid;
+    border-radius: 8px;
+    background-color: rgb(165, 165, 165);
+    color: rgb(216, 216, 216);
+    height: 50px;
+    width: 200px;
+}
+input[type="button"]{
+    font-size: 20px;
+    border: 1px #eee solid;
+    border-radius: 10%;
+    background-color: #eee;
+    color: rgba(0, 0, 0, 0.247);
+    height: 50px;
+    width: 50px;
+
+}

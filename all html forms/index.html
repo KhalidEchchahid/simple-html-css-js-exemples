@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UFT-8" />
+    <title> echchahid khalid</title>
+    <meta name="description" content="this is my first html page " />
+
+    <!-- 
+            b=> bold
+            strong=> important texte 
+            i=> italic
+            em=> emphasized text
+            mark => market texte or highlited texte 
+            u => under line 
+            small => smaller texte
+            del => delleted texte 
+            ins => insurted texte
+            sub => subscript
+            sup => superscript -->
+
+
+    <!--
+            <a> 
+                href title target='_black'
+
+            image 
+                 src alt 
+                 / inside     ../ back
+                 alt = if the photo will not chow-->
+
+
+
+    <!--
+            ul => unorderd texte 
+            li => list item
+            ol => orderd texte
+                 reversed      start=""    type=""
+
+            dl => description liste
+            dt =>  term
+            dd => description of the term
+            -->
+
+    <!--     TABLE
+            thead
+            tbody
+            tfoot
+            tr => table row
+            td => table data cell 
+                 colspane="" make two row or more  as one 
+
+            th => table header cell 
+            caption => the title of the  table 
+
+         -->
+    <!--
+             span
+             <br/>
+             <hr/>
+             div => the king of tags
+         -->
+    <!--
+               the Entities : write html intities liste on google 
+            
+            < = &lt;
+            > = &gt;
+
+         -->
+
+    <!--     semantic elements
+         <header>
+        <nav>
+        <section>
+        <article>
+        <figure>
+        <aside>
+        <footer>
+         -->
+
+
+    <!--   audio 
+            <audio controls autoplay loop muted >
+                <source src="" type="">
+                your browzer not support audio tags 
+            </audio> 
+        -->
+    <!--   vidio
+            <vidio controls autoplay loop muted poster=" link of the image ">
+                <source src="" type="">
+                your browzer not support vidio tags 
+            </vidio> 
+             
+        -->
+    <!--
+             wbr => break 
+              code => let all what you wrote fixe "line"
+             pre = code  "inline"
+    -->
+</head>
+
+<body>
+    <h1>ALL FORMS </h1>
+    <form action="" method="POST">
+        <div>
+            <label>username </label>
+            <input type="texte" required placeholder="username" name="user" autofocus>
+        </div>
+        <br>
+        <div>
+            <label>passeword</label>
+            <input type="password" required placeholder="passeword" name="password" minlength="6" maxlength="16">
+        </div>
+        <br>
+        <div>
+            <label>email</label>
+            <input type="email" required placeholder="email" value="khali`@gmail.com" name="mail">
+        </div>
+        <br>
+        <div>
+            <label>subject</label>
+            <input type="text" name="subject">
+        </div>
+        <br>
+        <input type="color" name="color">
+        <input type="range">
+        <br>
+        <div>
+            <input type="number" min="-60" max="60" step="2" name="number">
+        </div>
+        <hr>
+        <div>
+            <input type="radio" name="os" value="wendows" checked id="wen">
+            <label for="wen">wendows</label>
+        </div>
+        <div>
+            <input type="radio" name="os" value="linux" id="li">
+            <label for="li">linux</label>
+        </div>
+        <div>
+            <input type="radio" name="os" value="mac" id="mc">
+            <label for="mc">mac</label>
+        </div>
+        <hr>
+        <div>
+            <input type="checkbox" name="os" value="wendows" checked id="wen1">
+            <label for="wen1">wendows</label>
+        </div>
+        <div>
+            <input type="checkbox" name="os" value="linux" id="li1">
+            <label for="li1">linux</label>
+        </div>
+        <div>
+            <input type="checkbox" name="os" value="mac" id="mc1">
+            <label for="mc1">mac</label>
+        </div>
+        <div>
+            <label for="book"> choose book </label>
+            <select name="book" id="book" multiple>
+                <optgroup label="romantic">
+                    <option value="1" selected> book1 </option>
+                    <option value="2">book2</option>
+                    <option value="3">book3</option>
+                    <option value="4">book4</option>
+                    <option value="5">book5</option>
+                    <option value="6">book6</option>
+                    <option value="7">book7</option>
+
+                </optgroup>
+                <optgroup label="action">
+                    <option value="1">book1</option>
+                    <option value="2">book2</option>
+                    <option value="3">book3</option>
+                    <option value="4">book4</option>
+                    <option value="5">book5</option>
+                    <option value="6">book6</option>
+                    <option value="7">book7</option>
+                </optgroup>
+            </select>
+        </div>
+        <hr />
+        <div>
+            <textarea name="txt" placeholder="text text "></textarea>
+        </div>
+        <div>
+            <label>upload</label>
+            <input type="file">
+        </div>
+        <br>
+        <div>
+            <label>search</label>
+            <input type="search" />
+        </div>
+        <br>
+        <div>
+            <label>url</label>
+            <input type="url" />
+        </div>
+        <br>
+        <div>
+            <label>date</label>
+            <input type="date" />
+        </div>
+        <br>
+        <div>
+            <label>month</label>
+            <input type="month" />
+        </div>
+        <br>
+        <div>
+            <label>time</label>
+            <input type="time" />
+        </div>
+        <br>
+        <div>
+            <input list="programming" name="prog">
+            <datalist id="programming">
+                <option value="khalid">
+                <option value="sohayb">
+                <option value="amine">
+                <option value="doha">
+                <option value="hayat">
+                <option value="hafsa">
+            </datalist>
+        </div>
+        <hr>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+    <hr>
+    <div>
+        <button>click</button>
+    </div>
+</body>
+
+</html>
